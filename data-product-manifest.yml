@@ -1,0 +1,27 @@
+---
+id: hamburg-public-transport
+metadata:
+  name: Hamburg Public Transport
+  owner: Open Lifeworlds
+  description:
+  url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport
+  license: CC-BY 4.0
+  updated:
+  schema:
+input_ports:
+  - id: hamburg-geodata
+    manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-hamburg-geodata/refs/heads/main/data-product-manifest.yml
+  - id: hamburg-gtfs-source-aligned
+    manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-hamburg-gtfs-source-aligned/refs/heads/main/data-product-manifest.yml
+transformation_steps:
+output_ports:
+observability:
+  quality:
+  operational:
+  slas:
+  security:
+consumers:
+use_cases:
+classification: consumer-aligned
+ubiquitous_language: []
+tags:
