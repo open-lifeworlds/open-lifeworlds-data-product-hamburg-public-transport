@@ -1,0 +1,142 @@
+---
+dataProductDescriptor: data-product-descriptor
+info:
+  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:hamburg-public-transport:1.0
+  name: Hamburg Public Transport
+  version: '1.0'
+  domain: domain
+  owner:
+    id: Open Lifeworlds
+    name: Open Lifeworlds
+  id: hamburg-public-transport
+  entityType:
+  displayName: Hamburg Public Transport
+  description:
+  contactPoints:
+interfaceComponents:
+  outputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-networkx
+      fullyQualifiedName: hamburg-networkx
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-public-transport-2025-00-02
+      fullyQualifiedName: hamburg-public-transport-2025-00-02
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-public-transport-2025-08-10
+      fullyQualifiedName: hamburg-public-transport-2025-08-10
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-public-transport-2025-16-18
+      fullyQualifiedName: hamburg-public-transport-2025-16-18
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-public-transport-2025-00-02
+      fullyQualifiedName: hamburg-public-transport-2025-00-02
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-public-transport-2025-08-10
+      fullyQualifiedName: hamburg-public-transport-2025-08-10
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-public-transport-2025-16-18
+      fullyQualifiedName: hamburg-public-transport-2025-16-18
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  inputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-geodata
+      fullyQualifiedName: hamburg-geodata
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-gtfs-source-aligned
+      fullyQualifiedName: hamburg-gtfs-source-aligned
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  discoveryPorts:
+  observabilityPorts:
+  controlPorts:
+internalComponents:
+components:
+tags:
+externalDocs:

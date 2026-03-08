@@ -6,7 +6,7 @@ metadata:
   description:
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport
   license: CC-BY 4.0
-  updated:
+  updated: 2026-03-08
   schema:
 input_ports:
   - id: hamburg-geodata
@@ -15,6 +15,94 @@ input_ports:
     manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-hamburg-gtfs-source-aligned/refs/heads/main/data-product-manifest.yml
 transformation_steps:
 output_ports:
+  - id: hamburg-networkx
+    metadata:
+      name: Hamburg Networkx
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/tree/main/data/02-silver/hamburg-networkx
+      license: CC-BY 4.0
+      updated: 2026-03-08
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-networkx/hamburg-combined-2025-00-02.pkl
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-networkx/hamburg-combined-2025-08-10.pkl
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-networkx/hamburg-combined-2025-16-18.pkl
+  - id: hamburg-public-transport-2025-00-02
+    metadata:
+      name: Hamburg Public Transport 2025 00 02
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/tree/main/data/02-silver/hamburg-public-transport-2025-00-02
+      license: CC-BY 4.0
+      updated: 2026-03-08
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-public-transport-2025-00-02/hamburg-points-9-with-metrics.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-public-transport-2025-00-02/hamburg-points-9-with-reachable-area.geojson
+  - id: hamburg-public-transport-2025-08-10
+    metadata:
+      name: Hamburg Public Transport 2025 08 10
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/tree/main/data/02-silver/hamburg-public-transport-2025-08-10
+      license: CC-BY 4.0
+      updated: 2026-03-08
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-public-transport-2025-08-10/hamburg-points-9-with-metrics.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-public-transport-2025-08-10/hamburg-points-9-with-reachable-area.geojson
+  - id: hamburg-public-transport-2025-16-18
+    metadata:
+      name: Hamburg Public Transport 2025 16 18
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/tree/main/data/02-silver/hamburg-public-transport-2025-16-18
+      license: CC-BY 4.0
+      updated: 2026-03-08
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-public-transport-2025-16-18/hamburg-points-9-with-metrics.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/02-silver/hamburg-public-transport-2025-16-18/hamburg-points-9-with-reachable-area.geojson
+  - id: hamburg-public-transport-2025-00-02
+    metadata:
+      name: Hamburg Public Transport 2025 00 02
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/tree/main/data/03-gold/hamburg-public-transport-2025-00-02
+      license: CC-BY 4.0
+      updated: 2026-03-08
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-00-02/hamburg-points-7-with-hexagons.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-00-02/hamburg-points-8-with-hexagons.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-00-02/hamburg-points-9-with-hexagons.geojson
+  - id: hamburg-public-transport-2025-08-10
+    metadata:
+      name: Hamburg Public Transport 2025 08 10
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/tree/main/data/03-gold/hamburg-public-transport-2025-08-10
+      license: CC-BY 4.0
+      updated: 2026-03-08
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-08-10/hamburg-points-7-with-hexagons.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-08-10/hamburg-points-8-with-hexagons.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-08-10/hamburg-points-9-with-hexagons.geojson
+  - id: hamburg-public-transport-2025-16-18
+    metadata:
+      name: Hamburg Public Transport 2025 16 18
+      owner: Open Lifeworlds
+      description:
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/tree/main/data/03-gold/hamburg-public-transport-2025-16-18
+      license: CC-BY 4.0
+      updated: 2026-03-08
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-16-18/hamburg-points-7-with-hexagons.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-16-18/hamburg-points-8-with-hexagons.geojson
+      - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-hamburg-public-transport/refs/heads/main/data/03-gold/hamburg-public-transport-2025-16-18/hamburg-points-9-with-hexagons.geojson
 observability:
   quality:
   operational:
