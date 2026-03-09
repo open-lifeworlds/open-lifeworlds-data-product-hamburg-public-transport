@@ -123,8 +123,21 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: hamburg-gtfs-source-aligned
-      fullyQualifiedName: hamburg-gtfs-source-aligned
+      id: hamburg-public-transport-gtfs-2025-00
+      fullyQualifiedName: hamburg-public-transport-gtfs-2025-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: hamburg-public-transport-gtfs-2025-00
+      fullyQualifiedName: hamburg-public-transport-gtfs-2025-00
       entityType:
       name: ''
       version:

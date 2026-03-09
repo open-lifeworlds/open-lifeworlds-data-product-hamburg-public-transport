@@ -21,8 +21,10 @@
 ### Input Ports
 #### hamburg-geodata
 * fully qualified name: hamburg-geodata
-#### hamburg-gtfs-source-aligned
-* fully qualified name: hamburg-gtfs-source-aligned
+#### hamburg-public-transport-gtfs-2025-00
+* fully qualified name: hamburg-public-transport-gtfs-2025-00
+#### hamburg-public-transport-gtfs-2025-00
+* fully qualified name: hamburg-public-transport-gtfs-2025-00
 
 ### Output Ports
 #### hamburg-networkx
